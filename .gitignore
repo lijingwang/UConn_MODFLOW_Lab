@@ -1,0 +1,35 @@
+# Large data files (download separately — see notebook instructions)
+GLHYMPS/
+SoilGrids/
+
+# MODFLOW model workspaces (binary outputs, auto-generated)
+ERTH4750_SS_DataDriven/
+ERTH4750_TR_DataDriven/
+*/ERTH4750_*/
+*_DataDriven/
+
+# MODFLOW binary output files
+*.hds
+*.cbc
+*.uzfbud
+*.dis.grb
+*.sfr.cbc
+*.sfr.stage.bin
+*.lst
+mfsim.nam
+mfsim.lst
+
+# MODFLOW build artifacts
+mod_mf6/
+obj_mf6/
+src_mf6/
+temp/
+mf6
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
